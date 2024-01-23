@@ -42,8 +42,8 @@ namespace OriGames.Editor
 		[PreferenceItem("Folder Move Validator Settings")]
 		private static void CustomPreferencesGUI()
 		{
-			_millisecondsThreshold = EditorGUILayout.IntField("Milliseconds Threshold: ", _millisecondsThreshold);
-			_fileThreshold = EditorGUILayout.IntField("File Threshold: ", _fileThreshold);
+			_millisecondsThreshold = EditorGUILayout.IntField("Passed milliseconds threshold: ", _millisecondsThreshold);
+			_fileThreshold = EditorGUILayout.IntField("Files count threshold: ", _fileThreshold);
 
 			if (GUI.changed)
 			{
