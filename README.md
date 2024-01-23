@@ -16,7 +16,7 @@ After installation, you can configure the FolderMoveValidator settings:
 1. Open Unity and go to **Edit** > **Preferences**.
 2. Find the **Folder Move Validator Settings** in the Preferences window.
 3. Set the `Milliseconds Threshold` to your desired speed sensitivity. This determines how quickly consecutive clicks are interpreted as a possible accidental folder move.
-4. Set the `File Threshold` to determine the minimum number of files in a folder for the confirmation dialog to appear.
+4. Set the `File Threshold` to determine the minimum number of files in a folder and its subfolders for the confirmation dialog to appear.
 
 ## Usage
 When you attempt to move a folder that has more files than your `File Threshold` within a shorter time than your `Milliseconds Threshold`, Unity will prompt you with a confirmation dialog. If you confirm, the folder will be moved; otherwise, the move will be cancelled.
